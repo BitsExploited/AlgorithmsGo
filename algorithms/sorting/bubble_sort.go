@@ -1,3 +1,12 @@
+
+/*
+Time Complexity
+Best Case: O(n) //  If optimised with the "swapped" flag
+Average Case: O(n^2)
+Worst Case: O(n^2)
+
+*/
+
 package main
 
 import "fmt"

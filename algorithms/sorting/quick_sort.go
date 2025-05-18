@@ -1,3 +1,9 @@
+/*
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n²) (unbalanced pivot selection)
+*/
+
 package main
 
 import "fmt"
