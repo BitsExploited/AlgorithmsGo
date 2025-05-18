@@ -1,3 +1,11 @@
+/*
+Best Case: O(1)
+Average Case: O(log n)
+Worst Case: O(log n)
+
+Requires sorted array
+*/
+
 package main
 
 import "fmt"

@@ -1,3 +1,9 @@
+/*
+Best Case: O(1)
+Average Case: O(n)
+Worst Case: O(n)
+*/
+
 package main
 
 import "fmt"
