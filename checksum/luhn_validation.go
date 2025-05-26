@@ -1,5 +1,6 @@
 /*
 Time Complexity: O(n)
+Also known as modulo 10 algorithm
 
 (From right) → 7, 6, 4, 6, 3, 4, 3, 0, 8, 8, 4, 1, 9, 3, 5, 4
 Double these:    ↑   ↑   ↑   ↑   ↑   ↑   ↑   ↑
@@ -8,6 +9,7 @@ Then subtract 9 from values > 9:
                  7, 3, 4, 3, 3, 8, 3, 0, 8, 7, 4, 2, 9, 6, 5, 8
 Sum: **70**
 → `70 % 10 == 0` → Valid
+This is why its known as modulo 10
 */
 
 package main
