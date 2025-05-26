@@ -28,6 +28,7 @@ func binarySearch(arr []int, target int) int {
 	return -1 // Not found
 }
 
+// Any sorting algo can be used depending on the size of the dataset
 func bubbleSort(arr []int, n int) {
 	for i := 0; i < n - 1; i++ {
 		for j := 0; j < n - i - 1; j++ {
