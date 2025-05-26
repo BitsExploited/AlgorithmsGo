@@ -36,6 +36,9 @@ This section includes implementations of various algorithms, categorized by thei
 * Ternary Search
 * Interpolation Search
 
+### Checksum
+* Luhn Validation
+
 ---
 
 ## Contributing
