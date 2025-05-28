@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-func fibonacci(n int) int {
+func fibonacci(n uint) uint {
 	if n == 0 {
-		return n
+		return 0
 	}
 
-	var n1, n2 int = 0, 1
+	var n1, n2 uint = 0, 1
 
-	for i := 1; i < n; i++ {
+	for i := uint(1); i < n; i++ {
 		n3 := n1 + n2
 		n1 = n2
 		n2 = n3
@@ -19,7 +19,7 @@ func fibonacci(n int) int {
 }
 
 func main() {
-	n := 10
+	n := uint(10)
 
 	ans := fibonacci(n)
 
